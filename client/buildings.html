@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Buildings</title>
+		<!--style sheets-->
+		<link href="css/styledark3d.css" rel="stylesheet"></link>
+		<!--scripts-->
+		<script src="js/buildings.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Buildings</h1>
+		</header>
+		<div class="buttons">
+			<button class="normal" onClick="getBuildings()">Get</button>
+		</div>
+		<div id="container">
+			<table>
+				<thead>
+					<tr>
+						<th width="10%">Id</th>
+						<th width="30%">Name</th>
+						<th width="30%">Location</th>
+						<th width="30%">Type</th>
+					</tr>
+				</thead>
+				<tbody id="buildings">
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

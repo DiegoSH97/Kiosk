@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Buildings</title>
+		<!--style sheets-->
+		<link href="css/form_white_flat.css" rel="stylesheet"></link>
+		<!--scripts-->
+		<script src="js/globals.js"></script>
+		<script src="js/buildingtype.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>New Building</h1>
+		</header>
+		<div id="container">
+			<div class="form">
+				<label>Id:</label>
+				<input type="text" id="id"></input>
+				<label>Name:</label>
+				<input type="text" id="name"></input>
+				<label>Location:</label>
+				<input type="text" id="latitude" placeholder="Latitude"></input>
+				<input type="text" id="longitude" placeholder="Longitude"></input>
+				<label>Type:</label>
+				<select id="seltype" onClick="getBuildingType()"></select>
+			</div>
+			<div class="formmessage">
+				<label id="message"></label>
+			</div>
+			<div class="formbuttons">
+				<button class="ok" onClick="post()">Ok</button>
+				<button class="cancel" onClick="cancel()">Cancel</button>
+				
+			</div>
+		</div>
+	</body>
+</html>

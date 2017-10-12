@@ -1,0 +1,6 @@
+{
+	"server" : "localhost",
+	"database" : "kiosk",
+	"user" : "root",
+	"password" : ""
+}
